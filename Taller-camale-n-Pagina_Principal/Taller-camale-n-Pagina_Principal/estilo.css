@@ -321,10 +321,24 @@ h4{
      .logo-pc {
     display: block;
   }
+  .imagen2, .texto2 {
+    padding: 10px !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+
 
   .logo-movil {
     display: none;
   }
+.fondoblanco {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
 
     .contacto {
         text-align: left;

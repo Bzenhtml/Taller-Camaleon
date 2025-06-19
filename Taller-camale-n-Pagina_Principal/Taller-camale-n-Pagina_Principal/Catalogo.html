@@ -17,8 +17,12 @@
         <div class="col-sm-12"> 
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container">
-<a href="paginaPrincipal.html"><img src="contenido/Adobe Express - file.png" class="logoheader" height="100" width="100"> 
-</a> 
+<!--Logo pantalla grande-->
+<a href="paginaPrincipal.html"><img src="contenido/Adobe Express - file.png" height="100" width="100", class="logo-pc"> 
+  <!--Logo pantalla pequeña-->
+  <a href="paginaPrincipal.html"><img src="Imagenes/Logo/logo camaleon2.png" height="100" width="196", class="logo-movil"> 
+</a>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -52,7 +56,7 @@
     <div class="row">
         <button class="mostrar-filtros MostrarFiltros">Mostrar filtros</button>
         <br>
-        <div class="col-md-3 filtro">
+        <div class="col-md-3 filtro letras">
             <h5 class="TituloFiltro">Filtros</h5>
                 <p class="textoFiltro">Elija los Filtros que desea utilizar</p>
                 <input type="text" id="busqueda" class="busquedaclass" placeholder="Buscar...">
@@ -60,10 +64,10 @@
                 <label for="tiposproductos" class="tiposproductosclasstexto">Tipo de Producto:</label>
                 <select id="tiposproductos" class="tiposproductosclass">
                     <option name="Todos" value="Todos" id="todoos">Todos</option>
-                    <option name="Personalizado" value="Personalizado">Personalizado</option>
-                    <option name="Productos Ilustrados" value="Productos Ilustrados">Productos Ilustrados</option>
+                    <option name="Producto Personalizado" value="Producto Personalizado">Producto Personalizado</option>
+                    <option name="Producto Ilustrado" value="Producto Ilustrado">Producto Ilustrado</option>
                     <option name="Agenda" value="Agenda">Agenda</option>
-                </select>
+                </select> <br>
                     <label for="precioMinimo" class="preciotexto">Precio Mínimo:</label>
                     <input type="number" id="precioMinimo" class="precio" placeholder="Ingrese un precio mínimo">
                     <label for="precioMaximo"class="preciotexto">Precio Máximo:</label>
@@ -71,91 +75,69 @@
                     <button class="AplicarFiltro" id="AplicarFiltroId">Aplicar Filtros</button>
                     <button class="LimpiarFiltroId" id="LimpiarFiltroId">Limpiar Filtros</button>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 letras">
             <div class="row">
                 <div class="col-md-4 producto-col">
                     <div class="Producto visible">
-                       <a href="PaginaProducto.html"> <img src="Productos/70b7362f-4d27-4e70-b373-2c47ebf579f4.png" class="Producto-Imagen"></a>
-                        <div class="Producto-Cuerpo">
-                            <h6 class="Producto-tittle">Producto 1</h6>
-                            <p class="Producto-precio">Precio: $20.000CLP</p>
+                       <a href="PaginaProductoIlustrado1.html"> <img src="Productos/70b7362f-4d27-4e70-b373-2c47ebf579f4.png" class="Producto-Imagen"></a>
+                            <a href="PaginaProductoIlustrado1.html">    <div class="Producto-Cuerpo">
+                            <h6 class="Producto-tittle">Ballena Jorobada</h6>
+                            <p class="Producto-precio">Precio: $20.000 CLP</p>
+                            <p class="Producto-Tipo">Tipo de Producto: Producto Ilustrado</p>
+                            <p class="Producto-Texto">Descripción: <br> Un accesorio ilustrado con alma oceánica. Este llavero artesanal celebra la belleza de la ballena jorobada y transmite un mensaje de conexión con la naturaleza.</p>
+           </a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 producto-col">
+                    <div class="Producto visible">
+                        <a href="PaginaProductoAgenda1.html"> <img src="Productos/Agenda/4b616251-8ada-4838-b6a9-8ec57ddd8327.png" class="Producto-Imagen"></a>
+                       <a href="PaginaProductoAgenda1.html">   <div class="Producto-Cuerpo">
+                            <h6 class="Producto-tittle">Amanita Muscaria</h6>
+                            <p class="Producto-precio">Precio: $10.000 CLP</p>
                             <p class="Producto-Tipo">Tipo de Producto: Agenda</p>
-                            <p class="Producto-Texto">Descripción</p>                        <a href="PaginaProducto.html"><button class="vermas">Ver más</button></a>    
+                            <p class="Producto-Texto">Descripción: <br> Una libreta que evoca la magia del bosque. Con una ilustración botánica de hongos y aves, esta agenda artesanal combina arte, naturaleza y funcionalidad.</p>
+                       </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 producto-col">
                     <div class="Producto visible">
-                                      <a href="PaginaProducto2.html"> <img src="Productos/Agenda/4b616251-8ada-4838-b6a9-8ec57ddd8327.png" class="Producto-Imagen"></a>
+                        <a href="PaginaProductoPersonalizado1.html"> <img src="Productos/Personalizado/ProductoPersonalizado2.jpeg" class="Producto-Imagen"></a>
                         <div class="Producto-Cuerpo">
-                            <h6 class="Producto-tittle">Producto 2</h6>
-                            <p class="Producto-precio">Precio: $10.000CLP</p>
-                            <p class="Producto-Tipo">Tipo de Producto: Productos Ilustrados</p>
-                            <p class="Producto-Texto">Descripción</p>                  <a href="PaginaProducto.html"><button class="vermas">Ver más</button></a>    
+                            <h6 class="Producto-tittle">Timbre personalizado</h6>
+                            <p class="Producto-precio">Precio: $15.000 CLP</p>
+                            <p class="Producto-Tipo">Tipo de Producto: Producto Personalizado</p>
+                            <p class="Producto-Texto">Descripción: <br> Un timbre personalizado con alma docente. Este sello automático lleva la inscripción “Revisado Prof. Miriam G.”.</p>
+                       
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 producto-col">
-                    <div class="Producto visible">
-                               <a href="PaginaProducto.html"> <img src="Imagenes/Logo/Logo.png" class="Producto-Imagen"></a>
+                    <div class="Producto">
+                    <a href="PaginaProductoLlavero1.html"><img src="Productos/Personalizado/ProductoPersonalizado1.jpeg" class="Producto-Imagen"></a>
                         <div class="Producto-Cuerpo">
-                            <h6 class="Producto-tittle">Producto 3</h6>
-                            <p class="Producto-precio">Precio: $1.000.000CLP</p>
-                            <p class="Producto-Tipo">Tipo de Producto: Personalizado</p>
-                            <p class="Producto-Texto">Descripción</p>
+                            <h6 class="Producto-tittle">Paz al Bolsillo</h6>
+                            <p class="Producto-precio">Precio: $20.000 CLP</p>
+                            <p class="Producto-Tipo">Tipo de Producto: Producto Personalizado</p>
+                            <p class="Producto-Texto">Descripción: <br> Este llavero en forma de mano con señal de paz combina calidez artesanal y una estética relajado, con un estilo Cartoon.</p>
 
-                            </p><a href="PaginaProducto.html"><button class="vermas">Ver más</button></a>   
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 producto-col">
                     <div class="Producto">
-                                    <a href="PaginaProducto.html"> <img src="Imagenes/Logo/Logo.png" class="Producto-Imagen"></a>
+                        <a href="PaginaProductoAgendas.html"> <img src="Productos/Agenda/76a72392-f57c-412f-b8dd-ef90a9f001cc.jpg" class="Producto-Imagen"></a>
                         <div class="Producto-Cuerpo">
-                            <h6 class="Producto-tittle">Producto 4</h6>
-                            <p class="Producto-precio">Precio: $100.000CLP</p>
-                            <p class="Producto-Tipo">Tipo de Producto: Productos Ilustrados</p>
-                            <p class="Producto-Texto">Descripción</p>
-                            <a href="PaginaProducto.html"><button class="vermas">Ver más</button></a>    
-                        </div>
-                    </div>
-                </div>
-                    <div class="col-md-4 producto-col">
-                    <div class="Producto">
-                                      <a href="PaginaProducto.html"> <img src="Imagenes/Logo/Logo.png" class="Producto-Imagen"></a>
-                        <div class="Producto-Cuerpo">
-                            <h6 class="Producto-tittle">Producto 5</h6>
-                            <p class="Producto-precio">Precio: $50.000CLP</p>
+                            <h6 class="Producto-tittle">Alas del Bosque</h6>
+                            <p class="Producto-precio">Precio: $25.000 CLP</p>
                             <p class="Producto-Tipo">Tipo de Producto: Agenda</p>
-                            <p class="Producto-Texto">Descripción</p>
-                            <a href="PaginaProducto.html"><button class="vermas">Ver más</button></a>   
+                            <p class="Producto-Texto">Descripción: <br> Una colección inspirada en las aves nativas de Chile.</p>
+           
                         </div>
                     </div>
                 </div>
-                    <div class="col-md-4 producto-col">
-                    <div class="Producto">
-                                      <a href="PaginaProducto.html"> <img src="Imagenes/Logo/Logo.png" class="Producto-Imagen"></a>
-                        <div class="Producto-Cuerpo">
-                            <h6 class="Producto-tittle">Producto 6</h6>
-                            <p class="Producto-precio">Precio: $60.000CLP</p>
-                            <p class="Producto-Tipo">Tipo de Producto: Personalizado</p>
-                            <p class="Producto-Texto">Descripción</p>
-                            <a href="PaginaProducto.html"><button class="vermas">Ver más</button></a>  
-                        </div>
-                    </div>
-                </div>
-                    <div class="col-md-4 producto-col">
-                    <div class="Producto">
-                                        <a href="PaginaProducto.html"> <img src="Imagenes/Logo/Logo.png" class="Producto-Imagen"></a>
-                        <div class="Producto-Cuerpo">
-                            <h6 class="Producto-tittle">Producto 7</h6>
-                            <p class="Producto-precio">Precio: $70.000CLP</p>
-                            <p class="Producto-Tipo">Tipo de Producto: Productos Ilustrados</p>
-                            <p class="Producto-Texto">Descripción</p>
-                            <a href="PaginaProducto.html"><button class="vermas">Ver más</button></a>   
-                        </div>
-                    </div>
-                </div> <!--Desde aqui se puede ir agregando más productos, copiando y pegando la misma estructura-->
+                    <!--Desde aqui se puede ir agregando más productos, copiando y pegando la misma estructura-->
             </div>
         </div>
     </div>
@@ -184,7 +166,7 @@
                         <a href="https://www.whatsapp.com/catalog/56966213246/?app_absent=0"> <img src="Imagenes/Icono/Whatsappabajo.png" width="64" height="64">+56 9 6621 3246</a>
                     </div>
                         <div class="col-md-4 logofooter">
-                            <img src="Imagenes/Logo/Taller Camaleón.png" width="400" height="230" class="img-fluid" class="logofooterimg">
+                             <img src="Imagenes/Logo/logo camaleon 2020-07.jpg" width="500" height="130" class="img-fluid">
                         </div>
         </div>
         <p class="ubicacion">Chillán, Chile</p>

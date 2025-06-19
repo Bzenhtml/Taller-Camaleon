@@ -176,7 +176,7 @@ height: 50px;
 .contacto a{
     text-decoration: none;
     color: green;
-
+    font-size: 14px;
 }
 
 .textocontacto{
@@ -238,6 +238,9 @@ height: 50px;
         flex-direction: column;
         align-items: center;
     }
+    .correo{
+    font-size: 13px;
+}
 }
 
 /*Pon esto, es todo lo del footer, para que sea responsive*/
@@ -264,7 +267,7 @@ height: 50px;
     .contacto {
         text-align: left;
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 15px;
     }
     .contacto img{
         margin-left: -10px;
@@ -276,6 +279,9 @@ height: 50px;
     } 
     .letras {
         color: green;
+    }
+    .carousel-caption{
+        padding-bottom: 20px;
     }
 }
 
@@ -312,6 +318,10 @@ height: 50px;
 
 }
 
+.ubicacion{
+    font-size: 15px;
+    margin-bottom: -10px;
+}
 
 
 

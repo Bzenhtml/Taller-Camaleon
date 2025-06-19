@@ -3,7 +3,17 @@ html{
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.logo-pc {
+  display: block;
+}
 
+.logo-movil {
+  display: none;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
 .nav-item {
   display: flex;
   align-items: center;
@@ -47,6 +57,11 @@ body{
     padding-bottom: 70px;
 }
 
+.Producto-Imagen{
+    width: 110px;
+    height: 200px;
+}
+
 .filtro{
     padding-left: 0px;
     text-align: center;
@@ -54,6 +69,7 @@ body{
 }
 
 .Producto{
+    margin-top: 50px;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease-in-out, transform 1s ease-in-out;
@@ -216,11 +232,21 @@ h4{
         margin-top: 15px;
         margin-left: -5px;
     }
+    .nav-item{
+        padding-left: 100px;
+    }
 }
 
 /*Pon esto, es todo lo del footer, para que sea responsive*/
 
 @media (max-width: 768px) {
+    .logo-pc {
+  display: none;
+}
+
+.logo-movil {
+  display: block;
+}
     .contacto {
         text-align: left;
         margin-bottom: 10px;
