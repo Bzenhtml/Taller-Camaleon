@@ -277,10 +277,18 @@ h4{
     display: flex;
 
 }
-
+a{
+    text-decoration: none;
+    color: green;
+}
 .copyright{
     font-size: 15px;
     margin-top: 10px;
+}
+.ubicacion{
+    font-size: 15px;
+    margin-bottom: -10px;
+    padding-left: 19px;
 }
 /*Ignora esto, es de la pagina de productos*/
 

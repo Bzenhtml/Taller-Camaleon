@@ -172,6 +172,7 @@ a{
          
          
         }
+        
          .contenedor {
             display: flex;
             align-items: center;
@@ -281,6 +282,15 @@ h4{
 .copyright{
     font-size: 15px;
     margin-top: 10px;
+}
+.ubicacion{
+    font-size: 15px;
+    margin-bottom: -10px;
+    padding-left: 19px;
+}
+a{
+    text-decoration: none;
+    color: green;
 }
 /*Ignora esto, es de la pagina de productos*/
 

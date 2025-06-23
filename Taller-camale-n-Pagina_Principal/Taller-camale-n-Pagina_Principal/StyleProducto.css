@@ -156,13 +156,15 @@ height: 50px;
 }
 .separacion {
   display: flex;
-  flex-wrap: wrap;
+
   gap: 10px;
   justify-content: center;
 }
 .separacion button {
   flex: 1; /* Hace que los botones ocupen espacio equitativo */
   min-width: 120px;
+  width: 100px; /* Ancho mínimo */
+  height: 50px;
 }
 
 
@@ -196,6 +198,15 @@ height: 50px;
     font-size: 15px;
     margin-top: 10px;
 }
+.ubicacion{
+    font-size: 15px;
+    margin-bottom: -10px;
+    padding-left: 19px;
+}
+a {
+    text-decoration: none;
+    color: green;
+}   
 
 /*Ignora esto, es de la pagina de productos*/
 .carousel-caption {
@@ -219,7 +230,12 @@ height: 50px;
     font-size: 12px; /* Texto más pequeño en móviles */
     bottom: 5px; /* Ajusta la posición */
   }
+  .personalizado {
+    font-size: 12px; /* Texto más pequeño en móviles */
+    bottom: -20px; /* Ajusta la posición */
+  }
 }
+
 
 @media (max-width: 768px) {
     .texto, .imgproducto{
@@ -227,6 +243,7 @@ height: 50px;
         margin-right: auto;
         max-width: 100%; 
         padding: 20px; 
+        text-align: left;
     }
 }
 
@@ -239,7 +256,7 @@ height: 50px;
         align-items: center;
     }
     .correo{
-    font-size: 13px;
+    font-size: 12px;
 }
 }
 
